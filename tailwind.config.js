@@ -24,11 +24,13 @@ export default {
         90: '90vh',
         95: '95vh',
       },
-      width:{
-        10:'10vw',
-        11:'11vw',
+      width: {
+        10: '10vw',
+        11: '11vw',
         15: '15vw',
         20: '20vw',
+        23: '23vh',
+        24: "24vw",
         25: '25vw',
         30: '30vw',
         33: '33vw',
@@ -41,13 +43,16 @@ export default {
         95: '95vw',
       },
       color: {
-        120: '120%'
+        120: '120%',
       },
       backgroundColor: {
         mainblue: '#113853'
       },
       borderColor: {
         mainblue: '#113853'
+      },
+      textColor: {
+        yaFlixBlue: 'rgb(55, 134, 252)'
       }
 
     },
