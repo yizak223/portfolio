@@ -14,16 +14,16 @@ export default function Projects() {
       <div>
         <div className="flex justify-between p-6 gap-9">
           <div className='bg-slate-400 p-4 rounded-lg flex flex-col gap-2'>
-            <img className='min-h-20' src={resumeLogo} alt="" />
-            <img className='h-20' src={resumeHomePage} alt="" />
+            <img className='w-24 h-20 rounded-lg' src={resumeLogo} alt="" />
+            <img className='w-24 object-right' src={resumeHomePage} alt="" />
           </div>
           <div className='bg-slate-400 p-4 rounded-lg flex flex-col gap-2'>
-            <h3 className='bg-black text-yaFlixBlue font-bold text-7xl w-24 text-center'>YA-FLIX</h3>
-            <img className='w-24' src={yaFlixHomePage} alt="" />
+            <h3 className='w-24 h-20 flex justify-center items-center bg-black text-yaFlixBlue font-bold text-7xl rounded-lg'>YA-FLIX</h3>
+            <img className='w-24 object-cover' src={yaFlixHomePage} alt="" />
           </div>
           <div className='bg-slate-400 p-4 rounded-lg flex flex-col gap-2'>
-            <img className='w-24' src={revolBankLogo} alt="" />
-            <img className='w-24' src={revolBankHomePage} alt="" />
+            <img className='w-24 h-20 p-7 bg-white rounded-lg' src={revolBankLogo} alt="" />
+            <img className='w-24 object-cover' src={revolBankHomePage} alt="" />
 
           </div>
         </div>
