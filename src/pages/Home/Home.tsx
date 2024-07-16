@@ -4,10 +4,11 @@ import Projects from "../../component/Projects/Projects";
 
 export default function Home() {
   return (
-    <div>
+    <main>
         <About/>
         <Experience/>
         <Projects/>
-    </div>
+
+    </main>
   )
 }

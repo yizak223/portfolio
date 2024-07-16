@@ -38,7 +38,7 @@ const Experience: React.FC = () => {
     const tools = [FaHtml5, FaCss3Alt, SiTypescript, FaReact, FaNodeJs, SiPlaywright, SiSwagger, TbSql, FaGitAlt];
 
     return (
-        <div className="p-6">
+        <section id='Experience' className="p-6">
             <h2 className="text-3xl font-bold mb-6">Experience</h2>
             <ExperienceCard
                 title="Full Stack Developer"
@@ -46,7 +46,7 @@ const Experience: React.FC = () => {
                 linkedinUrl="https://www.linkedin.com/company/wotch-health/"
                 tools={tools}
             />
-        </div>
+        </section>
     );
 };
 

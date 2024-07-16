@@ -14,7 +14,7 @@ import { SiExpress, SiMongodb } from 'react-icons/si';
 
 export default function Projects() {
   return (
-    <div>
+    <section id='Projects'>
       <h2 className="p-6 text-3xl font-bold">Projects</h2>
       <div>
         <div className="flex justify-between p-6 gap-9">
@@ -63,6 +63,6 @@ export default function Projects() {
             ]} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
