@@ -19,10 +19,10 @@ export default function Projects() {
 
 
   return (
-    <section id='Projects'>
-      <h2 className="p-6 text-3xl font-bold">Projects</h2>
+    <section id='Projects' className="h-95 flex flex-col justify-center items-center">
+      <h2 className="text-2xl text-white font-bold border-b-4 border-purple-400 w-fit">Projects</h2>
       <div>
-        <div className="flex justify-between p-6 gap-9">
+        <div className="flex justify-center gap-3 p-6">
           <SingleProject
             logo={yaFlixLogo}
             explanation='A Web app to explore movies'

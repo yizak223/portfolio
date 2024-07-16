@@ -11,8 +11,8 @@ export default {
         50: ['0.50']
       },
       height: {
-        p1:'1px',
-        5:'5vh',
+        p1: '1px',
+        5: '5vh',
         15: '15vh',
         20: '20vh',
         25: '25vh',
@@ -25,6 +25,7 @@ export default {
         80: '80vh',
         90: '90vh',
         95: '95vh',
+        100: "100vw"
       },
       width: {
         10: '10vw',
@@ -34,7 +35,9 @@ export default {
         23: '23vh',
         24: "24vw",
         25: '25vw',
+        27: '27vw',
         30: '30vw',
+        31: '31vw',
         33: '33vw',
         40: '40vw',
         63: '63vw',
@@ -43,18 +46,22 @@ export default {
         80: '80vw',
         90: '90vw',
         95: '95vw',
+        100: "100vw"
       },
       color: {
         120: '120%',
+        purple:'#C8ACD6'
       },
       backgroundColor: {
-        mainblue: '#113853'
+        mainblue: '#113853',
+        secBlue:'#ccd6f6'
       },
       borderColor: {
         mainblue: '#113853'
       },
       textColor: {
-        yaFlixBlue: 'rgb(55, 134, 252)'
+        yaFlixBlue: 'rgb(55, 134, 252)',
+        blueText: '#ccd6f6'
       },
     },
   },
