@@ -17,11 +17,13 @@ const Experience: React.FC = () => {
                     <h2 className="text-2xl ">APR 2024 - JULY 2024</h2>
                 </div>
                 <Card
+                    firstSentence='I worked as a'
+                    secondSentence='at the company'
                     title="Full Stack Developer"
                     logo={wotchLogo}
                     linkedinUrl="https://www.linkedin.com/company/wotch-health/"
                     tools={tools}
-                    experienceEducationMode={true}
+                    technologiesSentence='Technologies I used'
                 />
             </div>
         </section>

@@ -29,11 +29,13 @@ export default function Education() {
                     <h2 className="text-2xl ">2023 - 2024</h2>
                 </div>
                 <Card
+                    firstSentence="I completed"
+                    secondSentence="at"
                     title="Full Stack Bootcamp"
                     logo={iitcLogo}
                     linkedinUrl="https://www.linkedin.com/school/iitc-college/"
                     tools={tools}
-                    experienceEducationMode={false}
+                    technologiesSentence='Technologies I learned'
                 />
             </div>
         </section>
