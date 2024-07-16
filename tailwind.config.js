@@ -53,8 +53,7 @@ export default {
       },
       textColor: {
         yaFlixBlue: 'rgb(55, 134, 252)'
-      }
-
+      },
     },
   },
   plugins: [],
