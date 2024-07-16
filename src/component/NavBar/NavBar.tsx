@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from '../../assets/logoPortfolio.png';
+import logo from '../../assets//portfolioImages/logoPortfolio.png';
 
 export default function NavBar() {
     const [activeItem, setActiveItem] = useState('About');

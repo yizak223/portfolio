@@ -1,5 +1,4 @@
-import me from '../../assets/me.jpeg';
-// import me2 from '../../assets/me2.jpeg';
+import me from '../../assets/portfolioImages/me.jpeg';
 
 export default function About() {
     return (

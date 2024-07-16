@@ -7,12 +7,17 @@ import revolBankHomePage from '../../assets/homePage/revolBank.png';
 import SingleProject from './SingleProject';
 import { IoLogoFirebase, IoLogoJavascript } from 'react-icons/io5';
 import { FaGitAlt, FaReact } from "react-icons/fa";
-import { FaCss3Alt, FaHtml5, FaNodeJs } from 'react-icons/fa6';
+import { FaCss3Alt, FaHtml5 } from 'react-icons/fa6';
 import { MdHttp } from 'react-icons/md';
 import { SiExpress, SiMongodb } from 'react-icons/si';
 
 
 export default function Projects() {
+  const toolsMovie = [FaHtml5, FaCss3Alt, IoLogoJavascript, MdHttp, FaGitAlt]
+  const toolsBank = [FaHtml5, FaCss3Alt, IoLogoJavascript, FaReact, IoLogoFirebase, FaGitAlt, SiExpress, SiMongodb]
+  const toolResume = [FaHtml5, FaCss3Alt, IoLogoJavascript, FaReact, IoLogoFirebase, FaGitAlt]
+
+
   return (
     <section id='Projects'>
       <h2 className="p-6 text-3xl font-bold">Projects</h2>
@@ -24,43 +29,21 @@ export default function Projects() {
             homePage={yaFlixHomePage}
             url='https://yizak223.github.io/YA_Flix/html/index.html'
             github='https://github.com/yizak223/YA_Flix'
-            tools={[
-              <FaHtml5 />,
-              <FaCss3Alt />,
-              <IoLogoJavascript />,
-              <MdHttp />,
-              <FaGitAlt />
-            ]} />
+            tools={toolsMovie} />
           <SingleProject
             logo={resumeLogo}
             explanation='A Web app to create resume'
             homePage={resumeHomePage}
             url='https://made-me-resume.web.app/'
             github='https://github.com/yizak223/Resume-Maker'
-            tools={[
-              <FaHtml5 />,
-              <FaCss3Alt />,
-              <IoLogoJavascript />,
-              <FaReact />,
-              <IoLogoFirebase />,
-              <FaGitAlt />
-            ]} />
+            tools={toolResume} />
           <SingleProject
             logo={revolBankLogo}
             explanation='A Web app that simulates a bank'
             homePage={revolBankHomePage}
             url='https://revol-bank.onrender.com/'
             github='https://github.com/yizak223/RevolBank'
-            tools={[
-              <FaHtml5 />,
-              <FaCss3Alt />,
-              <IoLogoJavascript />,
-              <FaReact />,
-              <FaNodeJs />,
-              <SiExpress />,
-              <SiMongodb />,
-              <FaGitAlt />,
-            ]} />
+            tools={toolsBank} />
         </div>
       </div>
     </section>

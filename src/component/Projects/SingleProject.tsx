@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 
 interface SingleProjectProps {
     logo: string;
@@ -6,7 +6,7 @@ interface SingleProjectProps {
     homePage: string;
     url: string;
     github: string;
-    tools: ReactElement[];
+    tools: React.ElementType[];
 }
 
 const SingleProject: React.FC<SingleProjectProps> = ({ logo, explanation, homePage, url, github, tools }) => {
@@ -29,9 +29,9 @@ const SingleProject: React.FC<SingleProjectProps> = ({ logo, explanation, homePa
                 <div className='h-p1 bg-blue-950'></div>
                 <p className='font-bold text-lg'>Tools</p>
                 <div className='flex justify-center flex-wrap gap-5 w-24'>
-                    {tools.map((tool, index) => (
-                        <div key={index} className='flex items-center gap-1'>
-                            <p className='text-6xl'>{tool}</p>
+                    {tools.map((ToolIcon, index) => (
+                        <div key={index} className='flex items-center gap-1 text-6xl'>
+                            <ToolIcon key={index} />
                         </div>
                     ))}
                 </div>
