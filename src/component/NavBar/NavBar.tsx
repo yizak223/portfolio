@@ -7,7 +7,7 @@ export default function NavBar() {
     const activeClasses = 'bg-mainblue text-white p-2';
 
     return (
-        <div className="sticky top-0 bg-white flex justify-center items-center h-10 border-b border-black">
+        <div className="sticky top-0 bg-white flex justify-center items-center h-10 border-b border-black z-20">
             <nav className='flex justify-between w-3/4'>
                 <div>
                     <img className='h-9 object-cover' src={logo} alt="" />
