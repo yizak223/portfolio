@@ -17,6 +17,9 @@ export default function NavBar() {
                         About
                     </li>
                     <li className={commonClasses}>
+                        Experince
+                    </li>
+                    <li className={commonClasses}>
                         Projects
                     </li>
                     <li className={commonClasses}>
