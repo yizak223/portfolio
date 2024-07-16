@@ -11,6 +11,7 @@ export default {
         50: ['0.50']
       },
       height: {
+        p1:'1px',
         15: '15vh',
         20: '20vh',
         25: '25vh',
