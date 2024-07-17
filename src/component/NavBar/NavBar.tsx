@@ -10,9 +10,9 @@ export default function NavBar() {
     useEffect(() => {
         const handleScroll = () => {
             const sections = document.querySelectorAll('section');
-            
+
             sections.forEach(section => {
-                const sectionTop = section.offsetTop -100; 
+                const sectionTop = section.offsetTop - 100;
                 const sectionBottom = sectionTop + section.clientHeight;
                 const scrollPosition = window.scrollY;
 
@@ -27,7 +27,7 @@ export default function NavBar() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []); 
+    }, []);
 
     const scrollToSection = (sectionId: string) => {
         const section = document.getElementById(sectionId);
@@ -58,8 +58,8 @@ export default function NavBar() {
                     <li className={`${commonClasses} ${activeItem === 'MilitaryService' ? activeClasses : ''}`} onClick={() => scrollToSection('MilitaryService')}>
                         Military Service
                     </li>
-                    <li className={`${commonClasses} ${activeItem === 'Others' ? activeClasses : ''}`} onClick={() => scrollToSection('Others')}>
-                        Others
+                    <li className={`${commonClasses} ${activeItem === 'Contact' ? activeClasses : ''}`} onClick={() => scrollToSection('Contact')}>
+                        Contact
                     </li>
                 </ul>
             </nav>
