@@ -20,18 +20,23 @@ export default function Education() {
         TbSql,
         SiMongodb,
         FaGitAlt];
+    const paragrph = [
+        'Graduated with honors with an average grade of 95.',
+        `An intensive bootcamp course where I worked on projects using React,
+         MongoDB, SQL, Git, HTML, CSS, JavaScript, TypeScript, Node.js, and
+         Express. `
+    ]
 
     return (
-        <section id="Education" className="h-95 flex justify-center">
-            <div className='h-full text-white flex flex-col gap-9 w-63 justify-center'>
+        <section id="Education" className="h-100 flex justify-center items-center">
+            <div className='bg-white w-75 h-75 flex flex-col gap-9 p-6 rounded-lg'>
                 <div className='flex justify-between'>
-                    <h2 className="text-2xl font-bold border-b-4 border-purple-400 w-fit">Education</h2>
-                    <h2 className="text-2xl ">2023 - 2024</h2>
+                    <h2 className="text-2xl font-bold border-b-4 border-purple-400 ">Education</h2>
+                    <h2 className="text-2xl">2023 - 2024</h2>
                 </div>
                 <Card
-                    firstSentence="I completed"
-                    secondSentence="at"
                     title="Full Stack Bootcamp"
+                    paragrph={paragrph}
                     logo={iitcLogo}
                     linkedinUrl="https://www.linkedin.com/school/iitc-college/"
                     tools={tools}
